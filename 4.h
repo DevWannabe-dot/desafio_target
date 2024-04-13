@@ -8,12 +8,7 @@
 /* Funções */
 void ex04()
 {
-    printf("Considere 1 como interruptor aceso e 0 como apagado. O estado inicial é 000. Meu passo a passo:"
-            "\n\t1) 000 -> 100"
-            "\n\t2) Conferir uma sala. Se ela estiver acesa, descobri um interruptor."
-            "\n\t3) 100 -> 101"
-            "\n\t4) Se a premissa anterior for verdadeira, confiro outra sala. Se ela estiver acesa, descobri este interruptor e posso deduzir que o último controla a lâmpada restante."
-            "\n\tCaso contrário, confiro a primeira sala. Se agora essa estiver acesa, descobri seu interruptor e posso deduzir que o interruptor restante controla a lâmpada restante.");
+    printf("Ligaria o interruptor 1 e, apos 10 minutos, o desligaria, para entao ligar o interruptor 2. Iria ate uma das salas e, caso estivesse acesa, associaria a lampada ao interruptor 1. Se estivesse apagada, porem quente, associaria a lampada ao interruptor 2, senao ao interruptor 3. Sem voltar para a sala dos interruptores, visitaria outra sala para descobrir o proximo interruptor, partindo do mesmo principio. Restaria, entao, apenas um interruptor, que obrigatoriamente controla a lampada restante.");
 }
 
 #endif
