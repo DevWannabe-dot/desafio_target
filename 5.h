@@ -22,8 +22,8 @@ void ex05()
         __str2[i] = str2[len2 -i -1];
     }
 
-    printf("\n\t\t<%s> -> <%s>" "\t * Palindromo"
-            "\n\t\t<%s> -> <%s>" "\t\t\t * Me contrata!!", str, __str, str2, __str2);
+    printf("\n\t<%s> -> <%s>" "\t * Palindromo"
+            "\n\t<%s> -> <%s>" "\t\t\t * Me contrata!!", str, __str, str2, __str2);
 }
 
 #endif

@@ -23,7 +23,7 @@ int ex02()
 {
 	int n;
 
-	printf("Insira o número a ser conferido: ");
+	printf("Insira o numero a ser conferido: ");
 	scanf("%d", &n);
 
 	int i = 0;
