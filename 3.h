@@ -1,3 +1,5 @@
+// Exercicio 03, execute somente o main.c
+
 #pragma once
 #ifndef __3_h__
 #define __3_h__
